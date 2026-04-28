@@ -1,4 +1,4 @@
-# 3D Portfolio (Three.js + React Three Fiber)
+# Portfolio (Three.js + React Three Fiber)
 
 This project is a small 3D engine built with React Three Fiber: a click-to-move player on a flat plane, in-scene trigger zones, and a minimal global store (Zustand) that records section activation.
 
@@ -48,8 +48,6 @@ npm run preview
 ├─ tsconfig.app.json             # TypeScript app config
 ├─ tsconfig.node.json            # TypeScript node config
 ├─ public/                       # Static files copied to build output
-│  └─ assets/
-│     └─ models/.gitkeep         # placeholder to keep folder in git
 └─ src/
   ├─ main.tsx                   # app bootstrap, mounts `App`
   ├─ App.tsx                    # top-level component composing the game
@@ -63,10 +61,5 @@ npm run preview
   ├─ store/
   │  └─ worldStore.ts           # Zustand store: player, target, activeSection
   ├─ types/
-  │  └─ world.ts                # SectionId and TriggerDef types
-  └─ ui/
-    └─ SectionsOverlay.tsx     # removed/optional modal overlay (UI consumer)
-
+     └─ world.ts                # SectionId and TriggerDef types
 ``` 
-
-If you want a different layout style (more compact, or with file counts), tell me which format you prefer and I’ll update it.
