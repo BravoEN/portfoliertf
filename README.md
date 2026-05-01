@@ -51,8 +51,7 @@ npm run preview
 └─ src/
   ├─ main.tsx                   # app bootstrap, mounts `App`
   ├─ App.tsx                    # top-level component composing the game
-  ├─ styles.css                 # global styles (game-shell, modal removed)
-  ├─ App.css                    # unused (safe to delete)
+  ├─ styles.css                 # global styles (game-shell)
   ├─ scene/                     # 3D scene components
   │  ├─ WorldCanvas.tsx         # creates Canvas, lights, env, children
   │  ├─ Ground.tsx              # visual ground + invisible click plane
